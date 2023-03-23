@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test-swc": "jest --config jest-swc.config.js regex-test/items-regex.test.ts",
+    "test": "jest regex-test-js/items-regex.test.js"
   },
   "dependencies": {
     "@swc-node/register": "^1.6.2",

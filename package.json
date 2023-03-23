@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test-swc": "jest --config jest-swc.config.js regex-test/items-regex.test.ts",
+    "test-swc-external": "jest --config jest-swc.config.js regex-test-external-mock/items-regex.test.ts",
     "test": "jest regex-test-js/items-regex.test.js"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 import "./__mocks__/items";
-import { jest, test, expect } from "@jest/globals";
+import { test, expect } from "@jest/globals";
 import { itemsRegex } from "./items-regex";
 
 test("ItemsRegex", () => {
